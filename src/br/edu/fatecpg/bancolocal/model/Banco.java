@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class Banco {
     private static final String url = "jdbc:postgresql://localhost:5432/db_clinica";
     private static final String user = "postgres";
-    private static final String password = "kalebemmj";
+    private static final String password = "";
 
 
     public static Connection conectar() throws SQLException {
